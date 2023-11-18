@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+#grades {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0px 50px 0px;
+	flex-direction: column;
+}
+
+#grades h2 {
+	font-weight: 500;
+	padding: 2px 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 20px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.grade-container {
+	display: flex;
+	margin: auto;
+	width: 1200px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+	background-color: #f5f5f544;
+}
+
+.grade-box {
+	position: relative;
+	padding: 20px;
+}
+
+.grade-box img {
+	width: 150px;
+	height: 150px;
+	object-fit: contain;
+	object-position: center;
+	padding: 20px;
+	background-color: #f5f5f5;
+	overflow: hidden;
+	border: 1px solid rgba(0, 0, 0, 0.04);
+	transition: all ease 0.3s;
+}
+
+.grade-box span {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	color: #2c2b2b;
+	text-transform: uppercase;
+}
+
+.grade-box:hover img {
+	transform: scale(1.5);
+	transition: all ease 0.2s;
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+}

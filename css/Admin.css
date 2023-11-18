@@ -1,0 +1,97 @@
+.admin {
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	width: 100%;
+}
+.admin > div {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+h1 {
+	margin-bottom: 1rem;
+}
+table {
+	text-align: center;
+	border-radius: 3px;
+	width: 75%;
+	background: #222;
+	margin-bottom: 3rem;
+}
+
+th,
+td {
+	border: 1px solid #666;
+	color: #00ffff;
+	text-align: center;
+	cursor: default;
+	padding: 3px;
+}
+
+table button {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin: 0px 3px;
+	font-size: 0.9rem;
+	background: #fff;
+	cursor: pointer;
+	border: 0;
+}
+
+table button i {
+	color: #212121;
+}
+
+table button:hover {
+	background-color: #cf2728;
+	transition: all ease 0.3s;
+}
+
+table button:hover i {
+	color: white;
+	transition: all ease 0.3s;
+}
+
+.form-box .input-box {
+	margin-bottom: 20px;
+}
+
+.form-box .input-box span {
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	color: #607d8b;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.form-box .input-box input {
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solid #607d8b;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #607d8b;
+	background: transparent;
+	border-radius: 30px;
+}
+
+.form-box .input-box input[type="submit"] {
+	background: #ff4584;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.form-box .input-box input[type="submit"]:hover {
+	background: #f53677;
+}
